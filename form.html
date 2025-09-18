@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, in itial-scale=1.0">
+  <title>REGISTRATION</title>
+  <style>
+    h1 {
+      text-align: center;
+      padding: 20px;
+      font-weight: bolder;
+      background-color: black;
+      border-style: outset;
+      border-color: aqua;
+      border-width: 35px;
+      color: white;
+      font-size: xx-large;
+    }
+
+    h2 {
+      text-align: center;
+      padding: 20px;
+      font-style: normal;
+      background-color: black;
+      border-style: inset;
+      border-color: aqua;
+      border-width: 20px;
+      color: wheat;
+      font-size: x-large;
+    }
+
+    form {
+      background-color: antiquewhite;
+      font-style: oblique;
+      padding: 10px;
+      text-align: center;
+      border-style: groove;
+      border-radius: 10%;
+      border-color: black;
+      border-width: 10px;
+      font-size: x-large;
+    }
+    input:focus{
+      background-color: grey;
+      border-radius: 50px;
+    }
+  
+    
+  </style>
+</head>
+
+<body>
+  <H1>REGISTRATION IS ON !</H1>
+  <H2>FILL THE FORM.</H2>
+  <form action="intro.html" method="get">
+    <Label for="NAME"> NAME:</Label>
+    <input type="text" id="NAME" style="width: 300px; height: 40px;" placeholder="ENTER YOUR NAME" required>
+    <BR></BR>
+    <label for="AGE">AGE:</label>
+    <INput type="NUMBER" id="AGE" style="width: 300px; height: 40px;" placeholder="ENTER AGE" required>
+    <BR></BR>
+    <LABEL for="GENDER">GENDER:</LABEL>
+    <LABEl FOR="MALE">MALE</LABEl>
+    <INPUT type="radio" id="MALE" name="GENDER" value="MALE" required>
+    <LABEL for="FEMALE">FEMALE</LABEL>
+    <INPUT type="radio" id="FEMALE" name="GENDER" value="FEMALE">
+    <label for="OTHERS">OTHERS:</label>
+    <INput type="radio" id="OTHERS" name="GENDER" value="OTHERS">
+    <BR></BR> <label for="DOB">DOB:</label>
+    <INPUT type="date" required>
+    <br><br>
+    <LABEl for="EMAIL">EMAIL:</LABEl>
+    <input type="email" id="emai" style="width: 300px; height: 40px;" placeholder="ENTER EMAIL" required>
+    <BR></BR>
+    <LABEL FOR="NUMBER">MOB NUMBER:</LABEL>
+    <input type="number" id="number" style="width: 300px; height: 40px;" placeholder="ENTER YOUR NUMBER" value="number"
+      required>
+    <br><br>
+    <button type="submit" style="width: 100px; height: 20px;" value=submit>SUBMIT</button>
+  </form>
+
+</body>
+
+</html>
